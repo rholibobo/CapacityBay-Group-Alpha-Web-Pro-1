@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+main{
+    width: 90%;
+    height: 200vh;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+main .gradient{
+    width: 20%;
+    height: 25vh;
+    background-image: linear-gradient(to left, rgb(148, 5, 148), rgb(243, 8, 243));
+    transform: skewY(-31deg);
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+
