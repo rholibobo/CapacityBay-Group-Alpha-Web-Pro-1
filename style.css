@@ -235,10 +235,9 @@ main .go{
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 641px) {
     main{
-        width: 100%;
-        margin: auto;
+        width: auto;
     }
     main .gradient{
         display: none;
@@ -284,6 +283,7 @@ header .header-h1{
     .philip{
         grid-template-columns: 1fr;
         margin: 0 20px;
+        
     }
 }
 @media screen and (max-width: 420px) {
@@ -339,16 +339,15 @@ header .header-h1{
     }
     .philip{
         grid-template-columns: 1fr;
-        margin: 0 20px;
+        /* margin: 0 20px; */
     }
 }
 @media screen and (max-width: 400px) {
-    body{
+    /* body{
         background-color: rgb(227, 241, 241);
-    }
+    } */
     main{
-        width: 100%;
-        margin: auto;
+        width: 105%;
         box-shadow: none;
     }
     main .gradient{
@@ -368,6 +367,9 @@ header .header-h1{
     .get-started-btn-1{
         width: 120px;
         margin-right: 50px;
+    }
+    footer{
+        width: 100%;
     }
     footer .footer-h2{
         margin-left: 20px;
@@ -399,6 +401,6 @@ header .header-h1{
     }
     .philip{
         grid-template-columns: 1fr;
-        margin: 0 20px;
+        
     }
 }
