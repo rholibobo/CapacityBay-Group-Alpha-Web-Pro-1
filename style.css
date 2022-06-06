@@ -238,19 +238,20 @@ main .go{
 @media screen and (max-width: 641px) {
     main{
         width: auto;
+        box-shadow: none;
     }
     main .gradient{
         display: none;
     }
     main .go{
         flex-direction: column;
-        padding: 0 100px;
+        /* margin: 0 auto; */
         margin-top: -10px;
         
     }
 header .header-h1{
-    /* margin-left: 15px; */
     padding: 0 50px;
+    font-size: 2rem;
 }
 
     .get-started-btn-1{
@@ -265,20 +266,27 @@ header .header-h1{
         margin-right: 20px;
     }
     .rex{
-        width: 100%;
+        width: 80%;
+        margin: 0px auto;
     }
     .rex .mod{
-        width: 80%;
+        width: 60%;
         line-height: 25px;
+        
+    }
+    .rex .max{
+        width: 100%;
+        font-size: 4rem;
     }
     .rex button{
         width: 40%;
     }
     .rex2{
-        width: 80%;
+        width: 65%;
         height: 350px;
-        margin: 70px 0;
+        margin: 70px auto;
         border-radius:50%;
+        
     }
     .philip{
         grid-template-columns: 1fr;
@@ -307,7 +315,7 @@ header .header-h1{
 
     .get-started-btn-1{
         width: 120px;
-        margin-right: 50px;
+        margin-right: 20px;
     }
     footer .footer-h2{
         margin-left: 20px;
@@ -337,17 +345,18 @@ header .header-h1{
         padding: 20px 150px;
         border-radius:50%;
     }
+    .rex2 .no{
+        margin-right: 10px ;
+    }
     .philip{
         grid-template-columns: 1fr;
-        /* margin: 0 20px; */
     }
 }
-@media screen and (max-width: 400px) {
-    /* body{
+@media screen and (max-width: 390px) {
+    body{
         background-color: rgb(227, 241, 241);
-    } */
+    }
     main{
-        width: 105%;
         box-shadow: none;
     }
     main .gradient{
@@ -366,7 +375,7 @@ header .header-h1{
 
     .get-started-btn-1{
         width: 120px;
-        margin-right: 50px;
+        margin-right: 20px;
     }
     footer{
         width: 100%;
@@ -398,6 +407,9 @@ header .header-h1{
         margin-left: -10px;
         padding: 20px 150px;
         border-radius:50%;
+    }
+    .rex2 .no{
+        margin-right: 30px ;
     }
     .philip{
         grid-template-columns: 1fr;
