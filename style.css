@@ -342,3 +342,63 @@ header .header-h1{
         margin: 0 20px;
     }
 }
+@media screen and (max-width: 400px) {
+    body{
+        background-color: rgb(227, 241, 241);
+    }
+    main{
+        width: 100%;
+        margin: auto;
+        box-shadow: none;
+    }
+    main .gradient{
+        display: none;
+    }
+    main .go{
+        flex-direction: column;
+        padding: 0 80px;
+        margin-top: -10px;
+        
+    }
+header .header-h1{
+    /* margin-left: 15px; */
+    padding: 0 50px;
+}
+
+    .get-started-btn-1{
+        width: 120px;
+        margin-right: 50px;
+    }
+    footer .footer-h2{
+        margin-left: 20px;
+    }
+    .get-started-btn-2{
+        width: 120px;
+        margin-right: 20px;
+    }
+    .rex{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .rex .mod{
+        width: 100%;
+        line-height: 20px;
+    }
+    .rex .max{
+        width: 100%;
+    }
+    .rex button{
+        width: 60%;
+    }
+    .rex2{
+        width: 100%;
+        /* height: 300px; */
+        margin-left: -10px;
+        padding: 20px 150px;
+        border-radius:50%;
+    }
+    .philip{
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+}
