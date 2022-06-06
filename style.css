@@ -295,7 +295,7 @@ header .header-h1{
     }
     main .go{
         flex-direction: column;
-        padding: 0 100px;
+        padding: 0 80px;
         margin-top: -10px;
         
     }
@@ -331,11 +331,13 @@ header .header-h1{
     }
     .rex2{
         width: 100%;
-        height: 300px;
-        margin: 70px 0;
+        /* height: 300px; */
+        margin-left: -10px;
+        padding: 20px 150px;
         border-radius:50%;
     }
     .philip{
         grid-template-columns: 1fr;
+        margin: 0 20px;
     }
 }
